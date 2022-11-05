@@ -7,6 +7,6 @@ let m = date.getMinutes();
 let s = date.getSeconds();
 let ms = date.getMilliseconds();
 
-let time = h+":"+m+":"+s+":"+ms;
+let time = h+":"+m+":"+s+":"+ms ;
 document.querySelector("#clock").innerHTML=time;setTimeout(showTime,1)
 }
